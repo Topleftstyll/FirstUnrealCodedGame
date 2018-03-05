@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryCollectorGameMode() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20880288u;
 
 
+				UProperty* NewProp_DecayRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("DecayRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(DecayRate, ABatteryCollectorGameMode), 0x0020080000010005);
 				static TCppClassTypeInfo<TCppClassTypeTraits<ABatteryCollectorGameMode> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -49,13 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeBatteryCollectorGameMode() {}
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BatteryCollectorGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BatteryCollectorGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+				MetaData->SetValue(NewProp_DecayRate, TEXT("Category"), TEXT("Power"));
+				MetaData->SetValue(NewProp_DecayRate, TEXT("ModuleRelativePath"), TEXT("BatteryCollectorGameMode.h"));
+				MetaData->SetValue(NewProp_DecayRate, TEXT("ToolTip"), TEXT("the rate at which the character loses power"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABatteryCollectorGameMode, 2125438873);
+	IMPLEMENT_CLASS(ABatteryCollectorGameMode, 1195373903);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABatteryCollectorGameMode(Z_Construct_UClass_ABatteryCollectorGameMode, &ABatteryCollectorGameMode::StaticClass, TEXT("/Script/BatteryCollector"), TEXT("ABatteryCollectorGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABatteryCollectorGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
