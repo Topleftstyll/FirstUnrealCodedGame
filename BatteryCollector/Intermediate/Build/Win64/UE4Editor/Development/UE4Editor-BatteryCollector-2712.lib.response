@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BatteryCollector-2712.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Program Files (x86)\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollector.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorCharacter.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorGameMode.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Pickup.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollector.init.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorCharacter.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorGameMode.gen.cpp.obj"
+"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Pickup.gen.cpp.obj"
+"E:\Program Files (x86)\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\PCLaunch.rc.res"
+"E:\Program Files (x86)\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2712.lib"
