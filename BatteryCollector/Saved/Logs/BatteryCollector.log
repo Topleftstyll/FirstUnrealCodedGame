@@ -1553,3 +1553,228 @@ LogInit: Object subsystem initialized
 [2018.03.05-07.39.54:784][ 38]LogSavePackage: Save=374.20ms
 [2018.03.05-07.39.54:784][ 38]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData5337480748B657642C85E8B5F838E758.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
 [2018.03.05-07.39.54:787][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.03.05-18.35.48:053][815]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2018.03.05-18.35.48:102][815]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.03.05-18.35.48:102][815]LogMaterial: Missing cached shader map for material M_beam_ramp, compiling. 
+[2018.03.05-18.36.21:331][739]BlueprintLog: New page: Compile Battery_BP
+[2018.03.05-18.36.24:149][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Battery_BP" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset" SILENT=true
+[2018.03.05-18.36.24:190][ 15]LogSavePackage: Save=26.22ms
+[2018.03.05-18.36.24:190][ 15]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Battery_BPED7349634D72447ECAAAB3BF3A96E6AC.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset'
+[2018.03.05-18.36.24:195][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset
+[2018.03.05-18.36.38:633][590]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-18.36.38:655][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-18.36.38:655][590]PIE: New page: PIE session: CollectionLevel (Mar 5, 2018, 8:36:38 AM)
+[2018.03.05-18.36.38:655][590]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2018.03.05-18.36.38:661][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005418s)
+[2018.03.05-18.36.38:662][590]LogAIModule: Creating AISystem for world CollectionLevel
+[2018.03.05-18.36.38:662][590]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2018.03.05-18.36.38:662][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.006959s)
+[2018.03.05-18.36.38:723][590]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-18.36.38:728][590]LogInit: FAudioDevice initialized.
+[2018.03.05-18.36.38:757][590]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2018.03.05-18.36.38:759][590]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2018.03.05-13.36.38
+[2018.03.05-18.36.38:759][590]LogWorld: Bringing up level for play took: 0.001846
+[2018.03.05-18.36.38:761][590]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.786
+[2018.03.05-18.37.12:287][509]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0017 seconds. Added 2 classes and 2 folders.
+[2018.03.05-18.37.36:257][289]LogSavePackage: Save=51.99ms
+[2018.03.05-18.37.36:257][289]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/P_electricity_arc69B15CCE49E7F4111AEFCE8977AC1008.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2018.03.05-18.37.36:260][289]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset
+[2018.03.05-18.37.37:788][468]LogSavePackage: Save=17.16ms
+[2018.03.05-18.37.37:789][468]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/P_electricity_arc3F0CD0814C5FE14CC903CFBC446BB172.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2018.03.05-18.37.37:789][468]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset
+[2018.03.05-18.38.09:075][198]LogSavePackage: Save=22.30ms
+[2018.03.05-18.38.09:075][198]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/P_electricity_arcC44BF7FB4214F955052B1DB685DD747D.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2018.03.05-18.38.09:077][198]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset
+[2018.03.05-18.38.11:058][431]LogSavePackage: Save=16.06ms
+[2018.03.05-18.38.11:058][431]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/P_electricity_arcE9450E564358F36EFEDAFFBFAA0B8F18.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2018.03.05-18.38.11:058][431]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset
+[2018.03.05-18.38.20:902][603]LogSavePackage: Save=18.85ms
+[2018.03.05-18.38.20:902][603]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/P_electricity_arcCC9C55EF4B55F97E7B64B0BD9B89E295.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2018.03.05-18.38.20:903][603]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset
+[2018.03.05-18.38.27:223][361]LogCascade: Quitting Cascade. FXSystem=0x000001B88F1D8D60
+[2018.03.05-18.43.22:239][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Battery_BP" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset" SILENT=true
+[2018.03.05-18.43.22:495][316]LogSavePackage: Save=248.88ms
+[2018.03.05-18.43.22:495][316]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Battery_BP3AFF61944C0E6778C0B0499F91955B4F.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset'
+[2018.03.05-18.43.22:497][316]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset
+[2018.03.05-18.43.32:056][462]BlueprintLog: New page: Compile Battery_BP
+[2018.03.05-18.43.32:862][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Battery_BP" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset" SILENT=true
+[2018.03.05-18.43.32:898][519]LogSavePackage: Save=33.74ms
+[2018.03.05-18.43.32:898][519]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Battery_BP017AA99A4F9A0118FCB7E1B853B67553.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset'
+[2018.03.05-18.43.32:899][519]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/Battery_BP.uasset
+[2018.03.05-18.43.35:381][812]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-18.43.35:398][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-18.43.35:398][812]PIE: New page: PIE session: CollectionLevel (Mar 5, 2018, 8:43:35 AM)
+[2018.03.05-18.43.35:398][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2018.03.05-18.43.35:402][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003714s)
+[2018.03.05-18.43.35:403][812]LogAIModule: Creating AISystem for world CollectionLevel
+[2018.03.05-18.43.35:404][812]LogPlayLevel: PIE: World Init took: (0.001539s)
+[2018.03.05-18.43.35:404][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005862s)
+[2018.03.05-18.43.35:439][812]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-18.43.35:445][812]LogInit: FAudioDevice initialized.
+[2018.03.05-18.43.35:475][812]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2018.03.05-18.43.35:477][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2018.03.05-13.43.35
+[2018.03.05-18.43.35:478][812]LogWorld: Bringing up level for play took: 0.001879
+[2018.03.05-18.43.35:480][812]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.496
+[2018.03.05-18.43.40:305][384]LogClass: You have collected Battery_BP_C_0
+[2018.03.05-18.43.40:306][384]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.40:306][384]LogClass: You have collected Battery_BP_C_1
+[2018.03.05-18.43.40:306][384]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.43:431][757]LogClass: You have collected Battery_BP_C_3
+[2018.03.05-18.43.43:432][757]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.43:432][757]LogClass: You have collected Battery_BP_C_2
+[2018.03.05-18.43.43:432][757]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.45:565][ 12]LogClass: You have collected Battery_BP_C_4
+[2018.03.05-18.43.45:565][ 12]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.47:173][204]LogClass: You have collected Battery_BP_C_6
+[2018.03.05-18.43.47:173][204]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.49:496][482]LogClass: You have collected Battery_BP_C_5
+[2018.03.05-18.43.49:496][482]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.50:999][662]LogClass: You have collected Battery_BP_C_7
+[2018.03.05-18.43.50:999][662]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.52:325][821]LogClass: You have collected Battery_BP_C_9
+[2018.03.05-18.43.52:325][821]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.53:598][973]LogClass: You have collected Battery_BP_C_11
+[2018.03.05-18.43.53:598][973]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.53:598][973]LogClass: You have collected Battery_BP_C_8
+[2018.03.05-18.43.53:598][973]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.43.54:609][ 93]LogClass: You have collected Battery_BP_C_10
+[2018.03.05-18.43.57:614][451]LogClass: You have collected Battery_BP_C_15
+[2018.03.05-18.43.59:481][675]LogClass: You have collected Battery_BP_C_16
+[2018.03.05-18.43.59:482][675]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-18.44.18:238][625]LogSavePackage: Save=36.42ms
+[2018.03.05-18.44.18:238][625]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel74D2907842FDB56481CF1789B637B239.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2018.03.05-18.44.18:239][625]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2018.03.05-18.44.18:596][625]LogSavePackage: Save=324.19ms
+[2018.03.05-18.44.18:596][625]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData2F6530BE41F7143115BF318E85886688.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2018.03.05-18.44.18:597][625]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.03.05-20.12.51:509][161]LogHotReload: New module detected: UE4Editor-BatteryCollector-2604.dll
+[2018.03.05-20.13.57:448][493]Candidate modules for hot reload:
+[2018.03.05-20.13.57:448][493]  BatteryCollector
+[2018.03.05-20.13.57:449][493]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 7516 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/BatteryCollector.uproject" ]
+[2018.03.05-20.13.57:520][493]Warning: Starting HotReload took  0.1s.
+[2018.03.05-20.14.22:077][242]CompilerResultsLog: New page: Compilation - Mar 5, 2018, 10:14:22 AM
+[2018.03.05-20.14.22:079][242]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.05-20.14.22:079][242]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2018.03.05-20.14.22:079][242]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\BatteryCollector.uproject" "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.05-20.14.22:079][242]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 13.8298115 seconds
+[2018.03.05-20.14.22:079][242]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.05-20.14.22:080][242]CompilerResultsLog: BatteryCollectorGameMode.cpp
+[2018.03.05-20.14.22:080][242]CompilerResultsLog: [2/3] Link UE4Editor-BatteryCollector-7516.dll
+[2018.03.05-20.14.22:080][242]CompilerResultsLog: [3/3] Link UE4Editor-BatteryCollector-7516.lib
+[2018.03.05-20.14.22:080][242]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-7516.suppressed.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-7516.suppressed.exp
+[2018.03.05-20.14.22:080][242]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-7516.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-7516.exp
+[2018.03.05-20.14.22:081][242]CompilerResultsLog: Total build time: 24.24 seconds (Local executor: 5.98 seconds)
+[2018.03.05-20.14.22:082][242]LogMainFrame: MainFrame: Module compiling took 24.673 seconds
+[2018.03.05-20.14.22:278][242]LogClass: Could not find existing class BatteryCollectorGameMode in package /Script/BatteryCollector for HotReload, assuming new class
+[2018.03.05-20.14.22:279][242]LogClass: Function GetPowerToWin is new.
+[2018.03.05-20.14.22:307][242]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2018.03.05-20.14.23:265][242]LogHotReload: Re-instancing BatteryCollectorGameMode after hot-reload.
+[2018.03.05-20.14.23:360][242]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2018.03.05-20.14.23:856][242]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0422 seconds. Added 5 classes and 2 folders.
+[2018.03.05-20.14.23:870][242]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.03.05-20.14.24:510][242]LogContentBrowser: Native class hierarchy populated in 0.0304 seconds. Added 2395 classes and 508 folders.
+[2018.03.05-20.14.24:538][242]Display: HotReload took 27.1s.
+[2018.03.05-20.15.09:222][ 46]LogSavePackage: Save=54.52ms
+[2018.03.05-20.15.09:222][ 46]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevelB25B33E04066596F462F99B9F6AAC6FD.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2018.03.05-20.15.09:223][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2018.03.05-20.15.09:607][ 46]LogSavePackage: Save=347.95ms
+[2018.03.05-20.15.09:607][ 46]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData70465D25427A37EDD9E874BC8FFF6DA3.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2018.03.05-20.15.09:608][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.03.05-20.15.13:349][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BatteryHUD" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset" SILENT=true
+[2018.03.05-20.15.13:363][320]LogSavePackage: Save=11.78ms
+[2018.03.05-20.15.13:363][320]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/BatteryHUD90CDAC6B426A6CD68EA489B9996F032D.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset'
+[2018.03.05-20.15.13:368][320]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset
+[2018.03.05-20.19.03:337][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BatteryHUD" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset" SILENT=true
+[2018.03.05-20.19.03:372][811]LogSavePackage: Save=20.31ms
+[2018.03.05-20.19.03:372][811]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/BatteryHUD8C1F864947A9A88C33C32FB32CF6F369.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset'
+[2018.03.05-20.19.03:378][811]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset
+[2018.03.05-20.19.04:860][988]BlueprintLog: New page: Compile BatteryHUD
+[2018.03.05-20.19.05:780][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BatteryHUD" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset" SILENT=true
+[2018.03.05-20.19.05:803][ 83]LogSavePackage: Save=19.62ms
+[2018.03.05-20.19.05:803][ 83]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/BatteryHUD61A4895942500058F3B23B8160CF3355.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset'
+[2018.03.05-20.19.05:803][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/BatteryHUD.uasset
+[2018.03.05-20.19.37:320][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode_BP" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/GameMode_BP.uasset" SILENT=true
+[2018.03.05-20.19.37:337][786]LogSavePackage: Save=13.75ms
+[2018.03.05-20.19.37:337][786]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/GameMode_BP2E993C764242EDE5B49C7C946A07D113.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/GameMode_BP.uasset'
+[2018.03.05-20.19.37:339][786]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/GameMode_BP.uasset
+[2018.03.05-20.19.45:457][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.05-20.19.48:747][929]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.05-20.19.50:877][183]BlueprintLog: New page: Compile GameMode_BP
+[2018.03.05-20.19.51:561][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode_BP" FILE="../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/GameMode_BP.uasset" SILENT=true
+[2018.03.05-20.19.51:579][228]LogSavePackage: Save=11.02ms
+[2018.03.05-20.19.51:579][228]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/GameMode_BPC91FB2EC4499E60B59A3D8B5541D8666.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/GameMode_BP.uasset'
+[2018.03.05-20.19.51:581][228]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Blueprints/GameMode_BP.uasset
+[2018.03.05-20.20.11:698][765]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BatteryCollector
+[2018.03.05-20.20.11:698][765]LogTemp: CWD: E:\Program Files (x86)\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.05-20.20.11:698][765]LogTemp: Initial Dir: E:\Program Files (x86)\UE_4.17
+[2018.03.05-20.20.11:698][765]LogTemp: Env CWD: E:\Program Files (x86)\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.05-20.20.11:698][765]LogTemp: BranchPath = DESKTOP-K7KMU8I/E/Program Files (x86)/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-K7KMU8I/E/Program Files (x86)/UE_4.17/Engine/Binaries
+[2018.03.05-20.20.11:699][765]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Josh\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.05-20.20.16:590][309]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.05-20.20.24:665][238]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-20.20.24:687][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-20.20.24:687][238]PIE: New page: PIE session: CollectionLevel (Mar 5, 2018, 10:20:24 AM)
+[2018.03.05-20.20.24:687][238]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2018.03.05-20.20.24:694][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006758s)
+[2018.03.05-20.20.24:695][238]LogAIModule: Creating AISystem for world CollectionLevel
+[2018.03.05-20.20.24:695][238]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.03.05-20.20.24:695][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.008111s)
+[2018.03.05-20.20.24:769][238]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-20.20.24:776][238]LogInit: FAudioDevice initialized.
+[2018.03.05-20.20.24:809][238]LogLoad: Game class is 'GameMode_BP_C'
+[2018.03.05-20.20.24:811][238]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2018.03.05-15.20.24
+[2018.03.05-20.20.24:812][238]LogWorld: Bringing up level for play took: 0.001683
+[2018.03.05-20.20.24:852][238]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.876
+[2018.03.05-20.20.30:052][858]LogClass: You have collected Battery_BP_C_1
+[2018.03.05-20.20.30:052][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.30:052][858]LogClass: You have collected Battery_BP_C_0
+[2018.03.05-20.20.30:052][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.31:783][ 65]LogClass: You have collected Battery_BP_C_3
+[2018.03.05-20.20.31:783][ 65]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.33:117][225]LogClass: You have collected Battery_BP_C_4
+[2018.03.05-20.20.33:117][225]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.33:683][293]LogClass: You have collected Battery_BP_C_2
+[2018.03.05-20.20.33:684][293]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.34:533][395]LogClass: You have collected Battery_BP_C_5
+[2018.03.05-20.20.34:534][395]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.57:150][106]LogClass: You have collected Battery_BP_C_10
+[2018.03.05-20.20.57:150][106]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.57:150][106]LogClass: You have collected Battery_BP_C_14
+[2018.03.05-20.20.57:150][106]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.57:150][106]LogClass: You have collected Battery_BP_C_22
+[2018.03.05-20.20.57:150][106]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.57:151][106]LogClass: You have collected Battery_BP_C_17
+[2018.03.05-20.20.57:151][106]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.57:151][106]LogClass: You have collected Battery_BP_C_23
+[2018.03.05-20.20.57:151][106]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.20.57:151][106]LogClass: You have collected Battery_BP_C_16
+[2018.03.05-20.20.57:151][106]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.03:164][827]LogClass: You have collected Battery_BP_C_7
+[2018.03.05-20.21.03:164][827]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.03:164][827]LogClass: You have collected Battery_BP_C_21
+[2018.03.05-20.21.03:164][827]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.03:164][827]LogClass: You have collected Battery_BP_C_24
+[2018.03.05-20.21.03:164][827]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.06:130][183]LogClass: You have collected Battery_BP_C_8
+[2018.03.05-20.21.06:130][183]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.06:131][183]LogClass: You have collected Battery_BP_C_27
+[2018.03.05-20.21.06:131][183]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.07:072][296]LogClass: You have collected Battery_BP_C_30
+[2018.03.05-20.21.07:072][296]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.07:614][361]LogClass: You have collected Battery_BP_C_9
+[2018.03.05-20.21.07:614][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.07:614][361]LogClass: You have collected Battery_BP_C_25
+[2018.03.05-20.21.07:614][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.07:864][391]LogClass: You have collected Battery_BP_C_15
+[2018.03.05-20.21.07:864][391]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.07:864][391]LogClass: You have collected Battery_BP_C_11
+[2018.03.05-20.21.07:864][391]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.07:864][391]LogClass: You have collected Battery_BP_C_26
+[2018.03.05-20.21.07:865][391]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.05-20.21.15:609][964]Cmd: SELECT NONE
+[2018.03.05-20.21.17:466][164]LogSavePackage: Save=34.55ms
+[2018.03.05-20.21.17:466][164]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevelF9AC7EB6441F9C9E78049CB0F16FE3AF.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2018.03.05-20.21.17:467][164]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2018.03.05-20.21.17:804][164]LogSavePackage: Save=306.66ms
+[2018.03.05-20.21.17:804][164]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltDataAD701E5746C071A113654EB38BE1536F.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2018.03.05-20.21.17:805][164]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset

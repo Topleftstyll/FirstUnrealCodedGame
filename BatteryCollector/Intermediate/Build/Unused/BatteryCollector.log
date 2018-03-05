@@ -1,17 +1,19 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for BatteryCollectorEditor
     Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\BatteryCollector.uproject" "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BatteryCollectorEditor in 7.5911098 seconds
-  Performing 8 actions (4 in parallel)
-  BatteryCollector.init.gen.cpp
-  BatteryPickup.cpp
-  SpawnVolume.cpp
+  Reflection code generated for BatteryCollectorEditor in 8.0803573 seconds
+  Performing 7 actions (4 in parallel)
   Pickup.cpp
-  BatteryPickup.gen.cpp
-  Pickup.gen.cpp
-  [7/8] Link UE4Editor-BatteryCollector-9787.dll
-  [8/8] Link UE4Editor-BatteryCollector-9787.lib
-     Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9787.suppressed.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9787.suppressed.exp
-     Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9787.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9787.exp
-  Deploying BatteryCollectorEditor Win64 Development...
-  Total build time: 15.58 seconds (Local executor: 4.25 seconds)
+  BatteryCollector.cpp
+  BatteryCollectorGameMode.cpp
+  BatteryCollector.init.gen.cpp
+  BatteryCollectorGameMode.gen.cpp
+  [6/7] Link UE4Editor-BatteryCollector-2604.dll
+  [7/7] Link UE4Editor-BatteryCollector-2604.lib
+     Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2604.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2604.exp
+     Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2604.suppressed.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2604.suppressed.exp
+BatteryCollectorGameMode.gen.cpp.obj : error LNK2019: unresolved external symbol "public: float __cdecl ABatteryCollectorGameMode::GetPowerToWin(void)const " (?GetPowerToWin@ABatteryCollectorGameMode@@QEBAMXZ) referenced in function "public: void __cdecl ABatteryCollectorGameMode::execGetPowerToWin(struct FFrame &,void * const)" (?execGetPowerToWin@ABatteryCollectorGameMode@@QEAAXAEAUFFrame@@QEAX@Z)
+E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Binaries\Win64\UE4Editor-BatteryCollector-2604.dll : fatal error LNK1120: 1 unresolved externals
+ERROR : UBT error : Failed to produce item: E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Binaries\Win64\UE4Editor-BatteryCollector-2604.dll
+  Total build time: 44.53 seconds (Local executor: 0.00 seconds)
+E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""E:\Program Files (x86)\UE_4.17\Engine\Build\BatchFiles\Build.bat" BatteryCollectorEditor Win64 Development "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\BatteryCollector.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
