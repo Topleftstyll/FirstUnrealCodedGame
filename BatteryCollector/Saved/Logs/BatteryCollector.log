@@ -931,3 +931,17 @@ LogInit: Object subsystem initialized
 [2018.03.05-00.05.54:168][ 46]LogSavePackage: Save=315.60ms
 [2018.03.05-00.05.54:168][ 46]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData4FC89A8A4EC3A19D64423DBC89B5058B.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
 [2018.03.05-00.05.54:169][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.03.05-00.16.41:689][364]LogHotReload: New module detected: UE4Editor-BatteryCollector-9787.dll
+[2018.03.05-00.16.42:370][367]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.05-00.16.42:431][367]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2018.03.05-00.16.42:431][367]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2018.03.05-00.16.42:431][367]LogClass: Function IsActive is new.
+[2018.03.05-00.16.42:431][367]LogClass: Function SetActive is new.
+[2018.03.05-00.16.42:431][367]LogClass: Function WasCollected is new.
+[2018.03.05-00.16.42:440][367]LogHotReload: Re-instancing BatteryPickup after hot-reload.
+[2018.03.05-00.16.42:613][367]LogHotReload: Re-instancing Pickup after hot-reload.
+[2018.03.05-00.16.42:773][367]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2018.03.05-00.16.42:944][367]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0010 seconds. Added 5 classes and 2 folders.
+[2018.03.05-00.16.42:946][367]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.03.05-00.16.43:153][367]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2393 classes and 506 folders.
+[2018.03.05-00.16.43:165][367]Display: HotReload took  0.8s.

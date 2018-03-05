@@ -53,7 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPickup() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABatteryPickup, 4242870709);
+	IMPLEMENT_CLASS(ABatteryPickup, 1437089297);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABatteryPickup(Z_Construct_UClass_ABatteryPickup, &ABatteryPickup::StaticClass, TEXT("/Script/BatteryCollector"), TEXT("ABatteryPickup"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABatteryPickup);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -26,6 +26,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
 	void SetActive(bool PickupState);
 
+	// function to call when the pickup is collected
+	UFUNCTION(BlueprintNativeEvent)
+	void WasCollected();
+	// any child can override since its virtual 
+	virtual void WasCollected_Implementation();
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -17,17 +17,24 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 	BATTERYCOLLECTOR_API UFunction* Z_Construct_UFunction_APickup_IsActive();
 	BATTERYCOLLECTOR_API UClass* Z_Construct_UClass_APickup();
 	BATTERYCOLLECTOR_API UFunction* Z_Construct_UFunction_APickup_SetActive();
+	BATTERYCOLLECTOR_API UFunction* Z_Construct_UFunction_APickup_WasCollected();
 	BATTERYCOLLECTOR_API UClass* Z_Construct_UClass_APickup_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_BatteryCollector();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_APickup_WasCollected = FName(TEXT("WasCollected"));
+	void APickup::WasCollected()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APickup_WasCollected),NULL);
+	}
 	void APickup::StaticRegisterNativesAPickup()
 	{
 		UClass* Class = APickup::StaticClass();
 		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
 			{ "IsActive", (Native)&APickup::execIsActive },
 			{ "SetActive", (Native)&APickup::execSetActive },
+			{ "WasCollected", (Native)&APickup::execWasCollected },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, AnsiFuncs, ARRAY_COUNT(AnsiFuncs));
 	}
@@ -79,6 +86,23 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_APickup_WasCollected()
+	{
+		UObject* Outer = Z_Construct_UClass_APickup();
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("WasCollected"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x08020C00, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("Pickup.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("function to call when the pickup is collected"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APickup_NoRegister()
 	{
 		return APickup::StaticClass();
@@ -98,10 +122,12 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 
 				OuterClass->LinkChild(Z_Construct_UFunction_APickup_IsActive());
 				OuterClass->LinkChild(Z_Construct_UFunction_APickup_SetActive());
+				OuterClass->LinkChild(Z_Construct_UFunction_APickup_WasCollected());
 
 				UProperty* NewProp_PickupMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PickupMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PickupMesh, APickup), 0x00400000000a001d, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APickup_IsActive(), "IsActive"); // 937615872
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APickup_SetActive(), "SetActive"); // 174126545
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APickup_WasCollected(), "WasCollected"); // 1207261181
 				static TCppClassTypeInfo<TCppClassTypeTraits<APickup> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -120,7 +146,7 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup, 170128703);
+	IMPLEMENT_CLASS(APickup, 3800635829);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APickup(Z_Construct_UClass_APickup, &APickup::StaticClass, TEXT("/Script/BatteryCollector"), TEXT("APickup"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APickup);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
