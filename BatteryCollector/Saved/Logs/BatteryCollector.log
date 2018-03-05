@@ -1321,3 +1321,235 @@ LogInit: Object subsystem initialized
 [2018.03.05-03.58.10:617][656]LogSavePackage: Save=320.67ms
 [2018.03.05-03.58.10:617][656]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltDataF4A9AAAC4DC5E78E5DC2D590AC676A2A.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
 [2018.03.05-03.58.10:619][656]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.03.05-06.59.00:024][400]MapCheck: New page: Map Check
+[2018.03.05-06.59.00:050][400]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.05-06.59.00:051][400]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.05-06.59.00:239][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.05-06.59.00:246][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_26, compiling. 
+[2018.03.05-06.59.00:267][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass_Inst, compiling. 
+[2018.03.05-06.59.00:273][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.03.05-06.59.00:278][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LightTube_Inst, compiling. 
+[2018.03.05-06.59.00:285][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_DemoWall_Inst, compiling. 
+[2018.03.05-06.59.00:291][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_34, compiling. 
+[2018.03.05-06.59.00:298][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialTranslucentUnlit, compiling. 
+[2018.03.05-06.59.00:916][400]TextureStreamingBuild: Display: Compiling optional shaders took 0.690 seconds.
+[2018.03.05-06.59.00:952][400]LogLevel: Display: Export Material TexCoord Scales took 0.036 seconds.
+[2018.03.05-06.59.00:958][400]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.03.05-06.59.00:981][400]LightingResults: New page: Lighting Build - Mar 4, 2018, 8:59:00 PM
+[2018.03.05-06.59.01:007][400]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.05-06.59.01:013][400]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.05-06.59.01:014][400]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.05-06.59.01:017][400]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.05-06.59.01:017][400]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20484
+[2018.03.05-06.59.05:612][400]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.05-06.59.05:612][400]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.05-06.59.05:612][400]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.05-06.59.05:612][400]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.05-06.59.05:612][400]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.05-06.59.05:613][400]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.05-06.59.05:685][400]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.05-06.59.05:685][400]MapCheck: New page: CollectionLevel - Mar 4, 2018, 8:59:05 PM
+[2018.03.05-06.59.09:775][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4,089.345ms to complete.
+[2018.03.05-06.59.09:797][400]LogEditorBuildUtils: Build time 0:09
+[2018.03.05-06.59.13:280][419]LogSavePackage: Save=89.68ms
+[2018.03.05-06.59.13:281][419]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_Auto54E6A94D348D20EF32A2D83BC771AC940.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto5.umap'
+[2018.03.05-06.59.13:282][419]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto5.umap
+[2018.03.05-06.59.13:289][419]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 0.131
+[2018.03.05-06.59.13:289][419]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.131
+[2018.03.05-06.59.13:890][429]Candidate modules for hot reload:
+[2018.03.05-06.59.13:890][429]  BatteryCollector
+[2018.03.05-06.59.13:890][429]Launching UnrealBuildTool... [E:/Program Files (x86)/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 1781 Win64 Development -editorrecompile -canskiplink "E:/_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/BatteryCollector.uproject" ]
+[2018.03.05-06.59.14:008][429]Warning: Starting HotReload took  0.1s.
+[2018.03.05-06.59.25:789][959]Job is a success!
+[2018.03.05-06.59.27:210][960]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.05-06.59.27:210][960]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.05-06.59.27:211][960]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.03.05-06.59.27:211][960]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.03.05-06.59.27:211][960]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2018.03.05-06.59.27:211][960]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2018.03.05-06.59.27:211][960]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2018.03.05-06.59.27:211][960]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2018.03.05-06.59.27:405][960]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.03.05-06.59.27:405][960]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 128X32)
+[2018.03.05-06.59.27:405][960]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2018.03.05-06.59.27:439][960]Lightmass on DESKTOP-K7KMU8I: 16.4 sec total, 164 ms importing, 60 ms setup, 1.41 sec photons, 14.5 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 1:41 min total, 1:10 min processing.
+[2018.03.05-06.59.27:473][960]LogStaticLightingSystem: Illumination: 26.4 sec (1.23 sec encoding lightmaps, 188 ms encoding shadowmaps)
+[2018.03.05-06.59.27:473][960]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2018.03.05-06.59.27:473][960]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.03.05-06.59.27:622][960]DumpUnbuiltLightIteractions
+[2018.03.05-06.59.27:622][960]Lights with unbuilt interactions: 0
+[2018.03.05-06.59.27:622][960]
+[2018.03.05-06.59.27:622][960]Primitives with unbuilt interactions: 0
+[2018.03.05-06.59.27:631][961]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.05-06.59.27:631][961]MapCheck: New page: CollectionLevel - Mar 4, 2018, 8:59:27 PM
+[2018.03.05-06.59.27:675][961]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.288ms to complete.
+[2018.03.05-06.59.34:492][992]CompilerResultsLog: New page: Compilation - Mar 4, 2018, 8:59:34 PM
+[2018.03.05-06.59.34:493][992]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.05-06.59.34:493][992]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2018.03.05-06.59.34:493][992]CompilerResultsLog:   Running UnrealHeaderTool "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\BatteryCollector.uproject" "E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.05-06.59.34:493][992]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 11.9256056 seconds
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: BatteryCollectorCharacter.cpp
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: BatteryCollector.init.gen.cpp
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: BatteryCollectorCharacter.gen.cpp
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: BatteryCollectorGameMode.cpp
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: Error: E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(51) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.03.05-06.59.34:494][992]CompilerResultsLog: E:\Program Files (x86)\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.03.05-06.59.34:495][992]CompilerResultsLog: [5/6] Link UE4Editor-BatteryCollector-1781.dll
+[2018.03.05-06.59.34:495][992]CompilerResultsLog: [6/6] Link UE4Editor-BatteryCollector-1781.lib
+[2018.03.05-06.59.34:495][992]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-1781.suppressed.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-1781.suppressed.exp
+[2018.03.05-06.59.34:495][992]CompilerResultsLog:    Creating library E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-1781.lib and object E:\_GameDev\_Projects\Unreal\FirstUnrealCodedGame\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-1781.exp
+[2018.03.05-06.59.34:495][992]CompilerResultsLog: Total build time: 20.22 seconds (Local executor: 3.65 seconds)
+[2018.03.05-06.59.34:495][992]LogMainFrame: MainFrame: Module compiling took 20.616 seconds
+[2018.03.05-06.59.34:566][992]LogClass: Could not find existing class BatteryCollectorCharacter in package /Script/BatteryCollector for HotReload, assuming new class
+[2018.03.05-06.59.34:566][992]LogClass: Function CollectPickups is new.
+[2018.03.05-06.59.34:566][992]LogClass: Function GetCurrentPower is new.
+[2018.03.05-06.59.34:566][992]LogClass: Function GetInitialPower is new.
+[2018.03.05-06.59.34:566][992]LogClass: Function UpdatePower is new.
+[2018.03.05-06.59.34:581][992]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2018.03.05-06.59.35:068][992]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2018.03.05-06.59.35:372][992]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0012 seconds. Added 5 classes and 2 folders.
+[2018.03.05-06.59.35:375][992]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.03.05-06.59.35:654][992]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2393 classes and 506 folders.
+[2018.03.05-06.59.35:658][992]Display: HotReload took 21.8s.
+[2018.03.05-07.00.07:832][587]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2018.03.05-07.00.07:847][587]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.03.05-07.00.08:101][587]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.03.05-07.00.08:204][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.03.05-07.00.08:209][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.03.05-07.00.08:216][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.05-07.00.17:906][124]MaterialEditorStats: Base pass shader: 86 instructions
+[2018.03.05-07.00.17:907][124]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.05-07.00.17:907][124]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.05-07.00.17:907][124]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.05-07.08.36:998][534]LogSavePackage: Save=227.15ms
+[2018.03.05-07.08.36:998][534]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacterD6A43969475898CB6A653B9A2FD43580.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.05-07.08.37:000][534]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.05-07.09.21:874][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 0.058
+[2018.03.05-07.09.21:875][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.03.05-07.09.21:887][666]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.03.05-07.09.21:888][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.03.05-07.09.21:937][666]LogSavePackage: Save=46.31ms
+[2018.03.05-07.09.21:937][666]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacter_Auto66E1D1BAC437CB11631BFA2BB9EBA4D8F.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2018.03.05-07.09.21:937][666]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto6.uasset
+[2018.03.05-07.09.21:938][666]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/CollectionLevel_BuiltData] ([1] browsable assets)...
+[2018.03.05-07.09.21:938][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/CollectionLevel_BuiltData]
+[2018.03.05-07.09.21:965][666]LogSavePackage: Save=16.60ms
+[2018.03.05-07.09.21:965][666]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData_Auto6ED87804E4532B648A8371CA3BA2084FC.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_BuiltData_Auto6.uasset'
+[2018.03.05-07.09.21:966][666]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_BuiltData_Auto6.uasset
+[2018.03.05-07.09.21:966][666]LogFileHelpers: Auto-saving content packages took 0.091
+[2018.03.05-07.19.22:551][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 0.029
+[2018.03.05-07.19.22:553][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.03.05-07.19.22:563][866]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.03.05-07.19.22:564][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.03.05-07.19.22:612][866]LogSavePackage: Save=40.75ms
+[2018.03.05-07.19.22:612][866]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacter_Auto753782494484E33AF256BCA80A480D98B.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto7.uasset'
+[2018.03.05-07.19.22:613][866]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto7.uasset
+[2018.03.05-07.19.22:613][866]LogFileHelpers: Auto-saving content packages took 0.061
+[2018.03.05-07.35.23:693][168]LogSavePackage: Save=51.90ms
+[2018.03.05-07.35.23:693][168]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacter03E7A1174825A54B4216BBA4E407B71F.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.05-07.35.23:699][168]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.05-07.35.24:393][250]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.05-07.35.25:590][314]LogSavePackage: Save=60.14ms
+[2018.03.05-07.35.25:590][314]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacter6340EAE04ED8EBCCCAB45F94897B0346.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.05-07.35.25:591][314]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.05-07.37.09:551][233]LogSavePackage: Save=47.71ms
+[2018.03.05-07.37.09:551][233]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacter8886909047684F0B3B25F2B603CA7159.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.05-07.37.09:554][233]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.05-07.37.46:584][836]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.05-07.37.47:516][877]LogSavePackage: Save=41.77ms
+[2018.03.05-07.37.47:516][877]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/ThirdPersonCharacterEA217C7F40111598F883708B874883F2.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.05-07.37.47:518][877]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.05-07.37.53:036][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.05-07.37.53:064][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.05-07.37.53:065][ 67]PIE: New page: PIE session: CollectionLevel (Mar 4, 2018, 9:37:53 PM)
+[2018.03.05-07.37.53:065][ 67]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2018.03.05-07.37.53:074][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008750s)
+[2018.03.05-07.37.53:075][ 67]LogAIModule: Creating AISystem for world CollectionLevel
+[2018.03.05-07.37.53:076][ 67]LogPlayLevel: PIE: World Init took: (0.001627s)
+[2018.03.05-07.37.53:076][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.011005s)
+[2018.03.05-07.37.53:120][ 67]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.05-07.37.53:127][ 67]LogInit: FAudioDevice initialized.
+[2018.03.05-07.37.53:167][ 67]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2018.03.05-07.37.53:171][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2018.03.05-02.37.53
+[2018.03.05-07.37.53:172][ 67]LogWorld: Bringing up level for play took: 0.004573
+[2018.03.05-07.37.53:176][ 67]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.8
+[2018.03.05-07.39.15:655][328]LogClass: You have collected Battery_BP_C_49
+[2018.03.05-07.39.15:655][328]LogClass: You have collected Battery_BP_C_56
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_37
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_57
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_42
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_33
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_43
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_62
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_17
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_58
+[2018.03.05-07.39.15:656][328]LogClass: You have collected Battery_BP_C_6
+[2018.03.05-07.39.15:849][342]LogClass: You have collected Battery_BP_C_3
+[2018.03.05-07.39.15:849][342]LogClass: You have collected Battery_BP_C_47
+[2018.03.05-07.39.15:850][342]LogClass: You have collected Battery_BP_C_61
+[2018.03.05-07.39.15:850][342]LogClass: You have collected Battery_BP_C_31
+[2018.03.05-07.39.15:850][342]LogClass: You have collected Battery_BP_C_7
+[2018.03.05-07.39.15:850][342]LogClass: You have collected Battery_BP_C_53
+[2018.03.05-07.39.15:850][342]LogClass: You have collected Battery_BP_C_27
+[2018.03.05-07.39.15:850][342]LogClass: You have collected Battery_BP_C_40
+[2018.03.05-07.39.16:059][358]LogClass: You have collected Battery_BP_C_52
+[2018.03.05-07.39.16:059][358]LogClass: You have collected Battery_BP_C_41
+[2018.03.05-07.39.16:059][358]LogClass: You have collected Battery_BP_C_48
+[2018.03.05-07.39.16:059][358]LogClass: You have collected Battery_BP_C_19
+[2018.03.05-07.39.16:060][358]LogClass: You have collected Battery_BP_C_46
+[2018.03.05-07.39.16:060][358]LogClass: You have collected Battery_BP_C_18
+[2018.03.05-07.39.16:060][358]LogClass: You have collected Battery_BP_C_24
+[2018.03.05-07.39.16:060][358]LogClass: You have collected Battery_BP_C_38
+[2018.03.05-07.39.16:060][358]LogClass: You have collected Battery_BP_C_29
+[2018.03.05-07.39.16:060][358]LogClass: You have collected Battery_BP_C_22
+[2018.03.05-07.39.16:274][374]LogClass: You have collected Battery_BP_C_23
+[2018.03.05-07.39.16:274][374]LogClass: You have collected Battery_BP_C_30
+[2018.03.05-07.39.16:497][390]LogClass: You have collected Battery_BP_C_14
+[2018.03.05-07.39.16:498][390]LogClass: You have collected Battery_BP_C_28
+[2018.03.05-07.39.16:498][390]LogClass: You have collected Battery_BP_C_5
+[2018.03.05-07.39.16:498][390]LogClass: You have collected Battery_BP_C_55
+[2018.03.05-07.39.16:498][390]LogClass: You have collected Battery_BP_C_26
+[2018.03.05-07.39.16:498][390]LogClass: You have collected Battery_BP_C_32
+[2018.03.05-07.39.16:729][407]LogClass: You have collected Battery_BP_C_16
+[2018.03.05-07.39.16:729][407]LogClass: You have collected Battery_BP_C_12
+[2018.03.05-07.39.16:730][407]LogClass: You have collected Battery_BP_C_21
+[2018.03.05-07.39.16:730][407]LogClass: You have collected Battery_BP_C_39
+[2018.03.05-07.39.16:730][407]LogClass: You have collected Battery_BP_C_44
+[2018.03.05-07.39.16:730][407]LogClass: You have collected Battery_BP_C_13
+[2018.03.05-07.39.16:927][422]LogClass: You have collected Battery_BP_C_11
+[2018.03.05-07.39.16:927][422]LogClass: You have collected Battery_BP_C_0
+[2018.03.05-07.39.16:927][422]LogClass: You have collected Battery_BP_C_8
+[2018.03.05-07.39.17:152][437]LogClass: You have collected Battery_BP_C_20
+[2018.03.05-07.39.17:152][437]LogClass: You have collected Battery_BP_C_2
+[2018.03.05-07.39.17:152][437]LogClass: You have collected Battery_BP_C_34
+[2018.03.05-07.39.17:152][437]LogClass: You have collected Battery_BP_C_60
+[2018.03.05-07.39.17:152][437]LogClass: You have collected Battery_BP_C_54
+[2018.03.05-07.39.17:152][437]LogClass: You have collected Battery_BP_C_4
+[2018.03.05-07.39.17:378][453]LogClass: You have collected Battery_BP_C_59
+[2018.03.05-07.39.17:378][453]LogClass: You have collected Battery_BP_C_35
+[2018.03.05-07.39.17:378][453]LogClass: You have collected Battery_BP_C_9
+[2018.03.05-07.39.27:369][128]LogClass: You have collected Battery_BP_C_15
+[2018.03.05-07.39.28:766][213]LogClass: You have collected Battery_BP_C_69
+[2018.03.05-07.39.28:766][213]LogClass: You have collected Battery_BP_C_66
+[2018.03.05-07.39.29:002][228]LogClass: You have collected Battery_BP_C_36
+[2018.03.05-07.39.29:002][228]LogClass: You have collected Battery_BP_C_50
+[2018.03.05-07.39.29:235][242]LogClass: You have collected Battery_BP_C_70
+[2018.03.05-07.39.29:235][242]LogClass: You have collected Battery_BP_C_72
+[2018.03.05-07.39.29:235][242]LogClass: You have collected Battery_BP_C_51
+[2018.03.05-07.39.29:235][242]LogClass: You have collected Battery_BP_C_67
+[2018.03.05-07.39.29:236][242]LogClass: You have collected Battery_BP_C_1
+[2018.03.05-07.39.35:141][585]LogClass: You have collected Battery_BP_C_63
+[2018.03.05-07.39.35:141][585]LogClass: You have collected Battery_BP_C_68
+[2018.03.05-07.39.51:084][857]LogSavePackage: Save=51.85ms
+[2018.03.05-07.39.51:084][857]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel751E7175450011FACA4A67AF58857EAF.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2018.03.05-07.39.51:092][857]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2018.03.05-07.39.51:540][857]LogSavePackage: Save=400.10ms
+[2018.03.05-07.39.51:540][857]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData2A8167D245711CC2FCED1DACA54C4495.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2018.03.05-07.39.51:545][857]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.03.05-07.39.54:383][ 38]LogSavePackage: Save=40.57ms
+[2018.03.05-07.39.54:383][ 38]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel6B6C2599444F40C0DF759D832DD16B2F.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2018.03.05-07.39.54:384][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2018.03.05-07.39.54:784][ 38]LogSavePackage: Save=374.20ms
+[2018.03.05-07.39.54:784][ 38]LogSavePackage: Moving '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Saved/CollectionLevel_BuiltData5337480748B657642C85E8B5F838E758.tmp' to '../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2018.03.05-07.39.54:787][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../_GameDev/_Projects/Unreal/FirstUnrealCodedGame/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
