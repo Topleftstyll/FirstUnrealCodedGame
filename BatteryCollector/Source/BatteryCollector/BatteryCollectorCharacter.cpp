@@ -10,6 +10,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Classes/Components/SphereComponent.h"
 #include "Pickup.h"
+#include "BatteryPickup.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ABatteryCollectorCharacter
@@ -52,6 +53,10 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	// set a base power level for our character
+	InitialPower = 2000.0f;
+	CharacterPower = InitialPower;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -147,6 +152,9 @@ void ABatteryCollectorCharacter::CollectPickups() {
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors);
 
+	// keep track of the collected battery power
+	float CollectedPower = 0.0f;
+
 	// go through the array and for each actor collected
 	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected) {
 		// cast the actor to APickup
@@ -157,8 +165,32 @@ void ABatteryCollectorCharacter::CollectPickups() {
 			// then call the pickups was collected function
 			TestPickup->WasCollected();
 
+			// check to see if the pickup is also battery
+			ABatteryPickup* const TestBattery = Cast<ABatteryPickup>(TestPickup);
+			if (TestBattery) {
+				// increase the collected power
+				CollectedPower += TestBattery->GetPower();
+			}
+
 			// deactive the pickup
 			TestPickup->SetActive(false);
 		}
 	}
+	if (CollectedPower > 0) {
+		UpdatePower(CollectedPower);
+	}
+}
+
+// reports starting power
+float ABatteryCollectorCharacter::GetInitialPower() {
+	return InitialPower;
+}
+
+// reports current power
+float ABatteryCollectorCharacter::GetCurrentPower() {
+	return CharacterPower;
+}
+
+void ABatteryCollectorCharacter::UpdatePower(float PowerChange) {
+	CharacterPower += PowerChange;
 }
